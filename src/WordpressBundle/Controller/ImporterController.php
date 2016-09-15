@@ -6,19 +6,18 @@
  * Time: 10:15
  */
 
-namespace WordpressBundle;
+namespace WordpressBundle\Controller;
 
 
 
 
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpKernel\Tests\Controller;
 
-/**
- * @Route(path="/import", name="wordpress_import")
- */
+
 class ImporterController extends Controller{
-    public function __construct()
+
+    public function importAction()
     {
         return new Response('Shit');
     }

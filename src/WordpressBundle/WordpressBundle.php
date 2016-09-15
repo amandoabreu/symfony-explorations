@@ -9,7 +9,6 @@
 namespace WordpressBundle;
 
 
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class WordpressBundle extends Bundle {

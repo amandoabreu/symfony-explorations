@@ -10,3 +10,7 @@ sulu_website:
 
 app_bundle:
     resource: "@AppBundle/Resources/config/routing_website.xml"
+
+
+wordpress_bundle:
+    resource: "@WordpressBundle/Resources/config/routing_website.xml"

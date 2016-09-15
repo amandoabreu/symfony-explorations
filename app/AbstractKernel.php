@@ -77,6 +77,7 @@ abstract class AbstractKernel extends SuluKernel
             new Massive\Bundle\BuildBundle\MassiveBuildBundle(),
 
             // Custom stuff
+            new WordpressBundle\WordpressBundle(),
             new AppBundle\AppBundle(),
         ];
 
