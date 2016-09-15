@@ -7,10 +7,14 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Zend\Stdlib\Response;
 
+
+/**
+ * @Route("/appbundle", name="default_controller")
+ */
 class DefaultController extends Controller
 {
     /**
-     * @Route("/appbundle")
+     * @Route("/")
      */
     public function indexAction(Request $request)
     {

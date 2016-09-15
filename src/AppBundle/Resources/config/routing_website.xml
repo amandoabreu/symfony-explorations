@@ -4,6 +4,6 @@
         xsi:schemaLocation="http://symfony.com/schema/routing
         http://symfony.com/schema/routing/routing-1.0.xsd">
     <route id="appbundle" path="/appbundle">
-        <default key="_controller">appbundle</default>
+        <default key="_controller">app_bundle.controller.default_controller:indexAction</default>
     </route>
 </routes>
