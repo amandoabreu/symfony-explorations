@@ -40,6 +40,16 @@
         </aside>
 
         <footer>
+            <nav>
+                <ul>
+                    {% for item in sulu_navigation_root_tree('room5') %}
+                        <li>
+                            <a href="{{ sulu_content_path(item.url) }}"
+                               title="{{ item.title }}">{{ item.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
             {% block footer %}
                 <p>Copyright {{ 'now'|date('Y') }} SULU</p>
             {% endblock %}

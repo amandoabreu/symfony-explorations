@@ -7,3 +7,6 @@ sulu_search:
 
 sulu_website:
     resource: "@SuluWebsiteBundle/Resources/config/routing_website.yml"
+
+app_bundle:
+    resource: "@AppBundle/Resources/config/routing_website.xml"
